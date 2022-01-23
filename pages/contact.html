@@ -1,39 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a0a339fc9.js" crossorigin="anonymous"></script>
     <title>Contact Us</title>
 </head>
+
 <body>
-     <!-- header -->
-     <header>
+    <!-- header -->
+    <header>
         <!-- navbar -->
-        <a class="logo" href="/"><img src="/images/logo.svg" alt="logo"></a>
-        <nav>
-            <ul class="nav__links">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/causes.html">Causes</a></li>
-                <li><a href="/pages/about.html">About Us</a></li>
-                <li><a href="/pages/contact.html">Conatct Us</a></li>
-            </ul>
+        <nav class="navbar"">
+        <a class=" logo" href="/"><img src="/images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/causes.html">Causes</a></li>
+                    <li><a href="/pages/about.html">About Us</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="/pages/causes.html">Donate</a>
+            <p class="menu cta">Menu</p>
         </nav>
-        <a class="cta" href="#">Donate</a>
-        <p class="menu cta">Menu</p>
-    </header>
-    <div class="overlay">
-        <a class="close">&times;</a>
-        <div class="overlay__content">
-            <a href="/index.html">Home</a>
-            <a href="/pages/causes.html">Projects</a>
-            <a href="/pages/about.html">About Us</a>
-            <a href="/pages/contact.html">Conatct Us</a>
+        <!-- <div class="overlay">
+  <a class="close">&times;</a>
+  <div class="overlay__content">
+    <a href="/index.html">Home</a>
+    <a href="/pages/causes.html">Causes</a>
+    <a href="/pages/about.html">About Us</a>
+    <a href="/pages/contact.html">Conatct Us</a>
+  </div>
+</div> -->
+
+        <!-- main -->
+
+        <div class="container">
+            <div class="row">
+                <div class="banner">
+                    <div class="backbg">
+                        <h3 class="heading">Contact us </h3>
+                        </br>
+                        </br>
+                        </br>
+                        <!-- <h4 class="heading"> talk or chat with us of various platform </h4> -->
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="/js/main.js"></script>
+        <center>
+            <h2><b> Connect with us </b> </h2>
+        </center>
+        <form class="contact-form">
+            <div align="left">
+
+                <label for="name"> Name </label>
+                <br>
+                <br>
+                <input type="text" id="name" required>
+                <br>
+                <br>
+            </div>
+            <div align="left">
+                <label for="phone"> Phone </label>
+                <br>
+                <br>
+                <input type="digit" id="phone" required>
+                <br>
+                <br>
+            </div>
+            <div align="left">
+
+                <label for="email">E-mail</label>
+                <br>
+                <br>
+                <input type="email" id="email" required>
+                <br>
+                <br>
+            </div>
+            <div align="left">
+
+                <label for="Query">Query related to </label>
+                <br>
+                <br>
+                <input type="Query" id="Query" required>
+                <br>
+                <br>
+            </div>
+            <div align="left">
+                <label for="message">Message</label>
+                <br>
+                <br>
+                <textarea name="exprince" rows="7" cols="30"> </textarea>
+                <br>
+                <br>
+            </div>
+            <div align="left">
+                <button type="button"> Send Query</button>
+
+            </div>
+        </form>
+
+
+
+        <iframe src="https://bit.ly/3pw5TrR" width="600" height="450" style="border:0;" allowfullscreen=""
+            loading="lazy" align="right"></iframe>
+        </br>
+
+        <!-- footer -->
+        <footer>
+            <!-- donate band -->
+            <div class="band">
+                <center>
+                    <span class="credit ">Join your hand with us for a better life and beautiful future&nbsp;&nbsp;<a
+                            href="/pages/causes.html">
+                            <p class="btn" style="color: black;">DONATE NOW</p>
+                        </a> </span>
+                </center>
+            </div>
+            <div class="main-content">
+                <div class="left box">
+                    <h2>About us</h2>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique ut eligendi tenetur,
+                            quis quisquam
+                            sequi omnis ullam blanditiis hic voluptatibus inventore delectus ex est, adipisci animi esse
+                            placeat totam.
+                        </p>
+                        <div class="social">
+                            <a href="https://facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#"><span class="fab fa-twitter"></span></a>
+                            <a href="https://instagram.com/"><span class="fab fa-instagram"></span></a>
+                            <a href="https://youtube.com/"><span class="fab fa-youtube"></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center box">
+                    <h2>Address</h2>
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text"><a href="https://bit.ly/3pxCQ7j"
+                                    style="text-decoration: none;color: white;">Chandigarh-Patiala National
+                                    Highway</a></span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text"><a href="tel:+91 095011 05714"
+                                    style="text-decoration: none;color: white;">+91 095011 05714</a></span>
+                        </div>
+                        <div class="email" style="font: white;">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text"><a href="mailto:abc@example.com"
+                                    style="text-decoration: none;color: white;">abc@example.com</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right box">
+                    <h2>Subscribe</h2>
+                    <div class="content">
+                        <p>Keep up with the latest news organization.</p>
+                        <form action="#">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required>
+                            </div>
+                            <div class="btn">
+                                <button type="submit">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <center>
+                    <span class="credit">Created By <a href="https://youtube.com/">abc.com</a> | </span>
+                    <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+                </center>
+            </div>
+        </footer>
 
 </body>
+
 </html>
